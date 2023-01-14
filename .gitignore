@@ -1,1 +1,9 @@
 *.jpg
+*.pyc
+*.csv
+*.db
+*.log
+*.npy
+*.bat
+
+tester.py
