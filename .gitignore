@@ -3,6 +3,7 @@
 *.csv
 *.db
 *.log
+*.pth
 *.npy
 *.bat
 
