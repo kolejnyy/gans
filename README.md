@@ -4,8 +4,8 @@
 
 - [ ] Create codes for all considered GANs:
   - [x] DCGAN [(arXiv)](https://arxiv.org/abs/1511.06434)
+  - [ ] CondGAN [(paper)](http://cs231n.stanford.edu/reports/2015/pdfs/jgauthie_final_report.pdf)
   - [ ] CycleGAN [(arXiv)](https://arxiv.org/abs/1703.10593)
-  - [ ] CondGAN [(arXiv)](https://arxiv.org/abs/1611.07004)
 - [ ] Train the relevant models on relevant datasets
 - [ ] Generate a birthday gift for my girlfriend
 

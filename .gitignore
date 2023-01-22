@@ -8,3 +8,6 @@
 *.bat
 
 tester.py
+trainer.py
+
+debug/*
