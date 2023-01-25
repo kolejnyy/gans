@@ -30,6 +30,6 @@ The DCGAN is a GAN that uses convolutional layers instead of fully connected lay
 
 ## CondGAN
 
-Conditional Generative Adversarial Network (CondGAN) apart from an input noise, also takes a  class label as a part of the input, for both generator and discriminator. By this modification, the model is able to generate images of a specific class. The model was train on the MNIST dataset, and already after one epoch was able to generate digits with provided label. Over the next few epochs, the model's accuracy (assessed by hand) started to decay, most likely due to overfitting of the discriminator. The results are shown below:
+Conditional Generative Adversarial Network (CondGAN) apart from an input noise, also takes a  class label as a part of the input, for both generator and discriminator. By this modification, the model is able to generate images of a specific class. The model was train on the MNIST dataset, and already after one epoch was able to generate digits with provided label. During the next 2 epochs, the quality of generated images was slowly increasing, resulting in the model used for creating the examples below (3 epochs). Over the next few epochs, the model's accuracy (assessed by hand) started to decay, most likely due to overfitting of the discriminator. The results are shown below:
 
 <img src="results/condgan.png" width = 100%>
