@@ -140,8 +140,8 @@ class CondGAN(nn.Module):
 		self.gen = CondGenerator(z_dim, cond_dim, image_channels, hidden_dim).to(self.device)
 		self.disc = CondDiscriminator(image_channels, hidden_dim, final_dim=final_dim, context_dim=cond_dim).to(self.device)
 		
-		self.disc_optim = optim.Adam(self.disc.parameters(), lr=0.0002, betas=(0.5, 0.999))
-		self.gen_optim 	= optim.Adam(self.gen.parameters(), lr=0.0002, betas=(0.5, 0.999))
+		self.disc_optim = optim.Adam(self.disc.parameters(), lr=0.0001, betas=(0.5, 0.999))
+		self.gen_optim 	= optim.Adam(self.gen.parameters(), lr=0.0001, betas=(0.5, 0.999))
 
 		self.loss = nn.BCELoss()
 
