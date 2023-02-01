@@ -11,3 +11,4 @@ tester.py
 trainer.py
 
 debug/*
+.vscode/*
